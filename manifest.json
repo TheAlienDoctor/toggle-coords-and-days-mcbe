@@ -1,0 +1,30 @@
+﻿{
+    "format_version": 2,
+    "header": {
+        "description": "§rPACK DESCRIPTION | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+        "name": "§1§lAlien's§r §ePack name §4(BP/RP-V1.0.0)§r",
+        "uuid": "UUID1 HERE",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "description": "§rPACK DESCRIPTION | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+            "type": "resources | data",
+            "uuid": "UUID2 HERE",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
