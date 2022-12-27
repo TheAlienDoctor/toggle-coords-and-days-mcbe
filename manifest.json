@@ -1,32 +1,33 @@
-﻿{
-	"format_version": 2,
-	"header": {
-		"description": "§rLets you toggle when co-ords are displayed | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4PATREON BETA 1.0.0 §r",
-		"name": "§1§lAlien's§r §eToggleable Co-ords §4(PATREON BETA 1.0.0)§r",
-		"uuid": "e59b4f16-3d4f-43cb-bbe9-40013b1f5bd1",
-		"version": [
-			1,
-			0,
-			0
-		],
-		"min_engine_version": [
-			1,
-			19,
-			40
-		]
-	},
-	"modules": [
-		{
-			"description": "§rLets you toggle when co-ords are displayed | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4PATREON BETA 1.0.0 §r",
-			"type": "resources",
-			"uuid": "235b7790-027c-4a75-9b4d-834b2d08f923",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
+﻿
+{
+    "format_version": 2,
+    "header": {
+        "description": "§rLets you toggle co-ordinates using the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+        "name": "§1§lAlien's§r §eToggleable co-ordinates §4(RP-V1.0.0)§r",
+        "uuid": "41d280f5-f46e-4508-bafd-463d4e9258a6",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            50
+        ]
+    },
+    "modules": [
+        {
+			"description": "§rLets you toggle co-ordinates using the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+            "type": "resources",
+            "uuid": "b9bb179b-6b01-46d0-9866-db98e9b2a354",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
 	"settings": [
 		{
 			"type": "label",
