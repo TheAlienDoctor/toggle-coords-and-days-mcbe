@@ -2,4 +2,4 @@
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
-options.hidepaperdoll=Hide Co-ordinates (client side)	#
+options.hidepaperdoll=Hide Co-ordinates (client side)
