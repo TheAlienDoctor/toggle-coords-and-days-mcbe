@@ -26,5 +26,27 @@
 				0
 			]
 		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "Default: Normal chat, just with toggleable co-ordinates"
+		},
+		{
+			"type": "label",
+			"text": "Clear chat: Using this setting will remove the background of the chat on the main HUD screen, giving a similar effect to my Clear Chat resource pack, which is not compatible with this pack (hence this setting existing)."
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "Clearchat",
+			"name": "Clear chat",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Default",
+			"name": "Default",
+			"memory_tier": 1
+		}
 	]
 }
