@@ -2,13 +2,13 @@
 {
     "format_version": 2,
     "header": {
-        "description": "§rLets you toggle co-ordinates using the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
-        "name": "§1§lAlien's§r §eToggleable co-ordinates §4(RP-V1.0.0)§r",
+        "description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.1 §r",
+        "name": "§1§lAlien's§r §eToggleable co-ordinates §4(RP-V1.0.1)§r",
         "uuid": "41d280f5-f46e-4508-bafd-463d4e9258a6",
         "version": [
             1,
             0,
-            0
+            1
         ],
         "min_engine_version": [
             1,
@@ -18,13 +18,13 @@
     },
     "modules": [
         {
-			"description": "§rLets you toggle co-ordinates using the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+			"description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.1 §r",
             "type": "resources",
             "uuid": "b9bb179b-6b01-46d0-9866-db98e9b2a354",
             "version": [
                 1,
                 0,
-                0
+                1
             ]
         }
     ],
@@ -49,5 +49,12 @@
 			"name": "Default",
 			"memory_tier": 1
 		}
-	]
+	],
+	"metadata": {
+		"authors": [
+			"TheAlienDoctor"
+		],
+		"license": "BSD 3-Clause License",
+		"url": "https://TheAlienDoctor.com"
+	}
 }
