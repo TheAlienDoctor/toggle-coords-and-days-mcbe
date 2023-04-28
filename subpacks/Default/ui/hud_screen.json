@@ -6,7 +6,7 @@
 	"hud_player_renderer": {
 		"type": "panel",
 		"size": [
-			0, //Setting the size to 0 will mean the paper doll doesn't exist
+			0, //Completly disable the paper doll - Alien
 			0
 		],
 		"controls": [
@@ -65,7 +65,7 @@
 		],
 		"bindings": [
 			{
-				"binding_name": "#paper_doll_visible", //Setting position binding to the paper doll binding, meaning it will only be shown when the paper doll is enabled.
+				"binding_name": "#paper_doll_visible", //Setting position binding to the paper doll binding, meaning it will only be shown when the paper doll is enabled. - Alien
 				"binding_name_override": "#visible"
 			}
 		]
@@ -94,7 +94,7 @@
 				"right_helpers@hud.right_helpers": {}
 			},
 			{
-				"emote_helpers@hud.emote_helpers": {}
+				"emote_expediate_helpers@hud.emote_expediate_helpers": {}
 			},
 			{
 				"centered_gui_elements@centered_gui_elements": {}
@@ -212,14 +212,32 @@
 						24
 					],
 					"anchor_from": "center",
-					"anchor_to": "center"
+					"anchor_to": "center",
+					"bindings": [
+						{
+							"binding_name": "(not #on_new_death_screen)",
+							"binding_name_override": "#visible"
+						}
+					]
 				}
 			},
 			{
 				"vignette_rend@vignette_renderer": {}
 			},
 			{
-				"curor_rend@cursor_renderer": {}
+				"editor_gizmo_rend@editor_gizmo_renderer": {
+					"ignored": "(not $is_editor_mode_enabled)"
+				}
+			},
+			{
+				"curor_rend@cursor_renderer": {
+					"bindings": [
+						{
+							"binding_name": "(not #on_new_death_screen)",
+							"binding_name_override": "#visible"
+						}
+					]
+				}
 			},
 			{
 				"game_tip@game_tip.game_tip_panel": {
@@ -236,11 +254,24 @@
 							]
 						}
 					],
-					"offset": "$offset"
+					"offset": "$offset",
+					"bindings": [
+						{
+							"binding_name": "(not #on_new_death_screen)",
+							"binding_name_override": "#visible"
+						}
+					]
 				}
 			},
 			{
-				"sidebar@scoreboard.scoreboard_sidebar": {}
+				"sidebar@scoreboard.scoreboard_sidebar": {
+					"bindings": [
+						{
+							"binding_name": "#scoreboard_sidebar_visible",
+							"binding_name_override": "#visible"
+						}
+					]
+				}
 			},
 			{
 				"progress_rend@progress_indicator_renderer": {
@@ -412,34 +443,6 @@
 			},
 			{
 				"save_icon@hud.auto_save": {}
-			},
-			{
-				"welcome_to_control_panel_trick": {
-					"type": "panel",
-					"size": [
-						100,
-						100
-					],
-					"offset": [
-						0,
-						-20
-					],
-					"controls": [
-						{
-							"lets_go_button@hud.Control_customization_trick_panel": {}
-						},
-						{
-							"welcome_to_control_background_panel@hud.welcome_to_control_background_panel": {}
-						}
-					],
-					"bindings": [
-						{
-							"binding_name": "#control_customization_visible",
-							"binding_name_override": "#visible",
-							"binding_type": "global"
-						}
-					]
-				}
 			}
 		],
 		"bindings": [
