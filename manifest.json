@@ -1,52 +1,60 @@
-﻿
-{
-    "format_version": 2,
-    "header": {
-        "description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.2 §r",
-        "name": "§1§lAlien's§r §eToggleable co-ordinates §4(RP-V1.0.2)§r",
-        "uuid": "41d280f5-f46e-4508-bafd-463d4e9258a6",
-        "version": [
-            1,
-            0,
-            2
-        ],
-        "min_engine_version": [
-            1,
-            19,
-            20
-        ]
-    },
-    "modules": [
-        {
-			"description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.2 §r",
-            "type": "resources",
-            "uuid": "b9bb179b-6b01-46d0-9866-db98e9b2a354",
-            "version": [
-                1,
-                0,
-                2
-            ]
-        }
-    ],
+﻿{
+	"format_version": 2,
+	"header": {
+		"description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.0 §r",
+		"name": "§1§lAlien's§r §eToggleable co-ordinates §4(RP-V1.0.2)§r",
+		"uuid": "41d280f5-f46e-4508-bafd-463d4e9258a6",
+		"version": [
+			1,
+			1,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "§rMakes the co-ordinates toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.0 §r",
+			"type": "resources",
+			"uuid": "b9bb179b-6b01-46d0-9866-db98e9b2a354",
+			"version": [
+				1,
+				1,
+				0
+			]
+		}
+	],
 	"settings": [
 		{
 			"type": "label",
-			"text": "Default: Normal chat, just with toggleable co-ordinates"
+			"text": "§9Both §e[Default]§r: both the co-ordinates and day counter will be toggleable"
 		},
 		{
 			"type": "label",
-			"text": "Clear chat: Using this setting will remove the background of the chat on the main HUD screen, giving a similar effect to my Clear Chat resource pack, which is not compatible with this pack (hence this setting existing)."
+			"text": "§9Co-ordinates only§r: Only co-ordinates will be toggleable"
+		},
+		{
+			"type": "label",
+			"text": "§9Days Only§r: Only the day counter will be toggleable"
 		}
 	],
 	"subpacks": [
 		{
-			"folder_name": "Clearchat",
-			"name": "Clear chat",
+			"folder_name": "days",
+			"name": "§9Days Only§r",
 			"memory_tier": 1
 		},
 		{
-			"folder_name": "Default",
-			"name": "Default",
+			"folder_name": "coords",
+			"name": "§9Co-ordinates only§r",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "both",
+			"name": "§9Both §e[Default]§r",
 			"memory_tier": 1
 		}
 	],
@@ -54,7 +62,7 @@
 		"authors": [
 			"TheAlienDoctor"
 		],
-		"license": "BSD 3-Clause License",
+		"license": "UFO License",
 		"url": "https://TheAlienDoctor.com"
 	}
 }
