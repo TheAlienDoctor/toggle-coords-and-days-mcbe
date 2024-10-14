@@ -1,6 +1,6 @@
-# Pack name
+# Toggleable Co-ords and Day Counter
 ## Information
-This resource pack allows you to toggle whether co-ordinates are shown on screen or not, via the use of the f8 key on pc. This is espically useful if you are streaming or recording, and don't want people to see your location.
+This resource pack allows you to toggle whether co-ordinates and/or the days are shown on screen or not, via the use of the f8 key on pc. This is espically useful if you are streaming or recording, and don't want people to see your location.
 ## Download
 You can download this pack from my website: https://TheAlienDoctor.com <br>
 You can also view the changelog, showcase video and any other information there.
