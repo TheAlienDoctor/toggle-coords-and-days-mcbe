@@ -1,29 +1,29 @@
 ﻿{
 	"format_version": 2,
 	"header": {
-		"description": "§rMakes the co-ordinates and/or day counter toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.1 §r",
-		"name": "§1§lAlien's§r §eToggleable co-ordinates and day counter §4(RP-V1.1.0)§r",
+		"description": "§rMakes the co-ordinates and/or day counter toggleable via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.2 §r",
+		"name": "§1§lAlien's§r §eToggleable co-ordinates and day counter §4(RP-V1.1.2)§r",
 		"uuid": "41d280f5-f46e-4508-bafd-463d4e9258a6",
 		"version": [
 			1,
 			1,
-			1
+			2
 		],
 		"min_engine_version": [
 			1,
 			21,
-			0
+			111
 		]
 	},
 	"modules": [
 		{
-			"description": "§rMakes the co-ordinates toggleable and/or day counter via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.1 §r",
+			"description": "§rMakes the co-ordinates toggleable and/or day counter via the f8 key. | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.1.2 §r",
 			"type": "resources",
 			"uuid": "b9bb179b-6b01-46d0-9866-db98e9b2a354",
 			"version": [
 				1,
 				1,
-				1
+				2
 			]
 		}
 	],
