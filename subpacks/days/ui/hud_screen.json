@@ -47,7 +47,6 @@
                     "anchor_from": "bottom_middle",
                     "anchor_to": "bottom_middle",
                     "layer": 1,
-                    "enable_profanity_filter": false,
                     "color": "$chat_text_color",
                     "text": "#text",
                     "shadow": true,
@@ -64,7 +63,7 @@
         ],
         "bindings": [
             {
-                "binding_name": "#paper_doll_visible", //Setting position binding to the paper doll binding, meaning it will only be shown when the paper doll is enabled. - Alien
+                "binding_name": "#paper_doll_visible", //Setting days binding to the paper doll binding, meaning it will only be shown when the paper doll is enabled. - Alien
                 "binding_name_override": "#visible",
                 "binding_condition": "always",
                 "binding_type": "global"
@@ -283,6 +282,22 @@
                 "right_helpers@hud.right_helpers": {}
             },
             {
+                "subtitle_container_host": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "factory": {
+                        "name": "subtitle_container_factory",
+                        "max_children_size": 1,
+                        "control_ids": {
+                            "subtitle_container": "subtitle_container@hud.subtitle_container_content"
+                        }
+                    }
+                }
+            },
+            {
                 "emote_expediate_helpers@hud.emote_expediate_helpers": {}
             },
             {
@@ -394,16 +409,6 @@
             },
             {
                 "vignette_rend@vignette_renderer": {}
-            },
-            {
-                "curor_rend@cursor_renderer": {
-                    "bindings": [
-                        {
-                            "binding_name": "#show_cursor",
-                            "binding_name_override": "#visible"
-                        }
-                    ]
-                }
             },
             {
                 "game_tip@game_tip.game_tip_factory": {}
